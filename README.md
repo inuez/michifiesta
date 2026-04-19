@@ -32,13 +32,21 @@ first use https://studio.penguinmod.com/PenguinMod-Packager and load the pmp/sb3
 now that your project is packaged (normally in a .zip file) install TurboWarp PackagerExtras (https://github.com/TurboWarp/packager-extras/ or https://github.com/TurboWarp/packager-extras/releases) and follow its instructions.
 normally, if you dont want to mess up with everything you'd leave the project like it is, but if you really want how to make the discord rich presence here it is:
 -install Node.js (https://nodejs.org)
+
 -after installing Node.js, open cmd in C:/YOUR_USER/Downloads (or where you downloaded it)/michifiesta/michifiesta/resources/app/
+
 -once you did that (remember to unzip the michifiesta.zip) open electron-main.js and paste a lot of garbage (copy+paste the whole electron-main.js from official releases. it doesnt matter that much and do the same for package.json.) and uh do the same for package.json.
+
 -now go on cmd and put: npm install discord-rpc
+
 -wait for it to download
+
 -now last thing to put is npm start to check if the game doesnt crash.
+
 -if it doesnt crash it's good if it does crash it means you gotta copy+paste node-modules, package.json and electron-main.js directly from an official release because i probably confused while doing this guide so uhh yeah
+
 -remember to add Node.js to the PATH
+
 
 # who even reads this
 who even reads this dude
